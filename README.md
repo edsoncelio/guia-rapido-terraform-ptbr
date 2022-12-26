@@ -1,6 +1,4 @@
-> **Aviso 1**: Esse blog post provavelmente vai ser atualizado no futuro.
-
-> **Aviso 2**: Tentei adicionar o máximo de referências em português(Brasil), mas infelizmente a maior parte está escrita em inglês.
+> Esse material foi inicialmente postado em https://dev.to/tuxpilgrim/breve-guia-de-sobrevivencia-com-terraform-ggn.
 
 ## Só pra recapitular, o que é o Terraform mesmo?
 Baseado na definição da Hashicorp (em uma tradução literal):
