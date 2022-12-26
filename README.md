@@ -31,7 +31,11 @@ A forma de uso do Terraform muitas vezes varia de organização pra organizaçã
 * [Práticas recomendadas para usar o Terraform via Google Cloud](https://cloud.google.com/docs/terraform/best-practices-for-terraform?hl=pt-br#operational-best-practices)
 * [Livro aberto com recomendações de melhores práticas](https://www.terraform-best-practices.com/v/ptbr/)
 * [Guia completo de uso do Terraform via GruntWork](https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca)¹ 
-     
+
+Também existem algumas ferramentas/utilitários que ajudam a fazer o *enforcement* (garantia) dessas melhores práticas, como por exemplo:
+* [Conftest](https://www.conftest.dev/): utilitário para escrever testes estruturados (políticas) usando o Open Policy Agent.
+* [Pre-commit Terraform](https://github.com/antonbabenko/pre-commit-terraform): git hook com alguns plugins para Terraform, ajudam a garantir que está tudo dentro do esperado antes do *push* para o repositório.
+
 ¹Valeu pelo lembrete desse link [Pablo](https://www.linkedin.com/in/pmmenezes/).
 
 Aqui também é importante citar que existem dois grandes grupos em uma discussão infinita quando se fala em organização dos projetos no Terraform:
@@ -76,8 +80,6 @@ Esse normalmente é um processo doloroso (dependendo da quantidade de recursos),
 
 ## Outras ferramentas que podem ser úteis
 * [Infracost](https://github.com/infracost/infracost): Estimativas de custos nos Pull Requests.
-* [Pre-commit Terraform](https://github.com/antonbabenko/pre-commit-terraform): git hooks com uma série de plugins pra Terraform.
-* [Conftest](https://www.conftest.dev/): ferramenta para escrever testes estruturados usando Open Policy Agent.
 * [Tfswitch](https://github.com/warrensbox/terraform-switcher): ferramenta de CLI pra gerenciar versões do Terraform.
 * [Terraboard](https://github.com/camptocamp/terraboard): dashboard web para inspecionar states do Terraform.
 * [Terraform Visual](https://github.com/hieven/terraform-visual): ferramenta para ter visualização interativa das mudanças em um `plan`.
