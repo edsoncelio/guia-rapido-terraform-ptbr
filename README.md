@@ -85,7 +85,8 @@ Para CircleCI:
 * [Terraform-docs](https://terraform-docs.io/)²: utilitário para gerar documentação para os módulos Terraform.
 * [K2tf](https://github.com/sl1pm4t/k2tf)³: utilitário para converter arquivos yaml do kubernetes para HCL.
 * [IAM JSON para Terraform HCL](https://flosell.github.io/iam-policy-json-to-terraform/)³: utilitário para converter políticas IAM (AWS) em .json para HCL.
-²: Valeu pelo lembrete [Arielson](https://www.linkedin.com/in/arielson-oliveira-91a73b1b1)
+
+²: Valeu pelo lembrete [Arielson](https://www.linkedin.com/in/arielson-oliveira-91a73b1b1)   
 ³: Valeu pelo lembrete [Isac](https://www.linkedin.com/in/isaccavalcante)
 
 ---
