@@ -70,6 +70,11 @@ Para Gitlab:
 Para CircleCI:
 * https://developer.hashicorp.com/terraform/tutorials/automation/circle-ci
 
+## E caso eu já tenha recursos criados (manualmente), consigo importar para código HCL?
+Esse normalmente é um processo doloroso (dependendo da quantidade de recursos), mas existem alguns utilitários que podem ajudar nisso:
+* [Terraformer](https://github.com/GoogleCloudPlatform/terraformer): tem suporte para os maiores provedores de nuvem (GCP, AWS e Azure) e outros serviços (como PagerDuty).
+* [Aztfy](https://github.com/Azure/aztfy): importa especificamente recursos da Azure.
+
 ## Comandos interessantes da CLI do Terraform
 * [terraform console](https://developer.hashicorp.com/terraform/cli/commands/console): abre uma CLI interativa pra validar expressões.
 * [terraform graph](https://developer.hashicorp.com/terraform/cli/commands/graph): gera uma visualização da configuração ou de um `plan`.
