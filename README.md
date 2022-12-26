@@ -91,6 +91,7 @@ Esse normalmente é um processo doloroso (dependendo da quantidade de recursos),
 ³: Valeu pelo lembrete [Isac](https://www.linkedin.com/in/isaccavalcante)
 
 ---
-Por agora é isso, provavelmente mais informações serão adicionadas no futuro :)
+
+Contribuições são mais que bem vindas, só abrir um Pull Request se achar algo que deveria estar aqui e não está :)
 
 
