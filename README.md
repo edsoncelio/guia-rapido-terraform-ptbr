@@ -57,16 +57,13 @@ As mais usadas:
 * [tflint](https://github.com/terraform-linters/tflint): Linter para Terraform, serve para avisar sobre problemas com sintaxe, erros nos principais provedores de nuvem, garantir boas práticas e outras coisas.
 
 ## Algum material de referência relacionado a Terraform no pipeline de CI/CD?
-Falando das plataformas mais usadas, todas tem workflows reutilizáveis para Terraform.
+Falando das plataformas de CI/CD mais usadas, todas tem workflows reutilizáveis para Terraform.
 
-Para Github Actions:
-* https://developer.hashicorp.com/terraform/tutorials/automation/github-actions
+* [Github Actions](https://developer.hashicorp.com/terraform/tutorials/automation/github-actions)
+* [Gitlab](https://docs.gitlab.com/ee/user/infrastructure/iac/)
+* [CircleCI](https://developer.hashicorp.com/terraform/tutorials/automation/circle-ci)
 
-Para Gitlab:
-* https://docs.gitlab.com/ee/user/infrastructure/iac/
-
-Para CircleCI:
-* https://developer.hashicorp.com/terraform/tutorials/automation/circle-ci
+Uma outra abordagem é usar o [Atlantis](https://www.runatlantis.io/) para automatizar a execução dos comandos via Pull Requests (Merge Requests).
 
 ## E caso eu já tenha recursos criados (manualmente), consigo importar para código HCL?
 Esse normalmente é um processo doloroso (dependendo da quantidade de recursos), mas existem alguns utilitários que podem ajudar nisso:
@@ -78,7 +75,6 @@ Esse normalmente é um processo doloroso (dependendo da quantidade de recursos),
 * [terraform graph](https://developer.hashicorp.com/terraform/cli/commands/graph): gera uma visualização da configuração ou de um `plan`.
 
 ## Outras ferramentas que podem ser úteis
-* [Atlantis](https://www.runatlantis.io/): Automação de Terraform via Pull Requests.
 * [Infracost](https://github.com/infracost/infracost): Estimativas de custos nos Pull Requests.
 * [Pre-commit Terraform](https://github.com/antonbabenko/pre-commit-terraform): git hooks com uma série de plugins pra Terraform.
 * [Conftest](https://www.conftest.dev/): ferramenta para escrever testes estruturados usando Open Policy Agent.
