@@ -83,8 +83,10 @@ Para CircleCI:
 * [Terraboard](https://github.com/camptocamp/terraboard): dashboard web para inspecionar states do Terraform.
 * [Terraform Visual](https://github.com/hieven/terraform-visual): ferramenta para ter visualização interativa das mudanças em um `plan`.
 * [Terraform-docs](https://terraform-docs.io/)²: utilitário para gerar documentação para os módulos Terraform.
-
+* [K2tf](https://github.com/sl1pm4t/k2tf)³: utilitário para converter arquivos yaml do kubernetes para HCL.
+* [IAM JSON para Terraform HCL](https://flosell.github.io/iam-policy-json-to-terraform/)³: utilitário para converter políticas IAM (AWS) em .json para HCL.
 ²: Valeu pelo lembrete [Arielson](https://www.linkedin.com/in/arielson-oliveira-91a73b1b1)
+³: Valeu pelo lembrete [Isac](https://www.linkedin.com/in/isaccavalcante)
 
 ---
 Por agora é isso, provavelmente mais informações serão adicionadas no futuro :)
