@@ -51,7 +51,9 @@ O tópico testes de infraestrutura como código ainda tem muito a ser discutido/
 * [Kitchen Terraform](https://newcontext-oss.github.io/kitchen-terraform/getting_started.html): Plugins do Test Kitchen para testar código Terraform, testes devem ser escritos em Ruby.
 * [Módulo Experimental de Testes](https://developer.hashicorp.com/terraform/language/modules/testing-experiment): Recurso builtin experimental do Terraform que permite que os testes sejam escritos em HCL e executados com o comando `terraform test`.
 
-Deixo aqui também um artigo bem interessante da Hashicorp sobre o assunto: https://www.hashicorp.com/blog/testing-hashicorp-terraform.
+Mais especificamente para AWS existe o [localstack](https://github.com/localstack), que é basicamente um framework para simular algumas funcionalidades da AWS localmente.
+
+Deixo aqui também um artigo bem interessante da Hashicorp sobre o assunto: [https://www.hashicorp.com/blog/testing-hashicorp-terraform](https://www.hashicorp.com/blog/testing-hashicorp-terraform).
 
 ## Existem ferramentas de segurança para fazer análise estática (ou algum outro tipo) do meu código Terraform?
 Existem algumas ferramentas opensource que fazem análise estática e de erros de configuração no código e lint.
