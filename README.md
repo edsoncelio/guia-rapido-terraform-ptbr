@@ -49,7 +49,7 @@ Recomendo ler sobre as duas opções e escolher a que traz mais benefícios para
 O tópico testes de infraestrutura como código ainda tem muito a ser discutido/melhorado, mas até agora, as opções que temos disponíveis são:
 * [Terratest](https://terratest.gruntwork.io/): Framework de testes para Terraform, os testes devem ser escritos em Golang.
 * [Kitchen Terraform](https://newcontext-oss.github.io/kitchen-terraform/getting_started.html): Plugins do Test Kitchen para testar código Terraform, testes devem ser escritos em Ruby.
-* [Módulo Experimental de Testes](https://developer.hashicorp.com/terraform/language/modules/testing-experiment): Recurso builtin experimental do Terraform que permite que os testes sejam escritos em HCL e executados com o comando `terraform test`.
+* [Terraform Tests](https://developer.hashicorp.com/terraform/language/tests): Recurso nativo do Terraform que permite que os testes sejam escritos em HCL e executados com o comando `terraform test`.
 
 Mais especificamente para AWS existe o [localstack](https://github.com/localstack), que é basicamente um framework para simular algumas funcionalidades da AWS localmente.
 
